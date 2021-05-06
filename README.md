@@ -12,8 +12,8 @@ The environment is considered solved if the agent wins 13 points on average.
 * TrainModel.ipynb: a notebook that trains a model and saves model to model.pt
 * RunModel.ipynb: a notebook that loads and runs a trained model 
 * TestModel.ipynb: a notebook that loads and test the model for 100 iterations and prints the graph and average score
-* model.py: a 3 hidden layer triangle shaped model using ReLU activation functions built using py torch  
-* dq_agent.py: the DQN agent that runs using model.py, which can be adapted to use any similar learner. The network as built will learn to solve this challenge in around 530 episodes.
+* NeuralNet.py: a 3 hidden layer triangle shaped model using ReLU activation functions built using py torch  
+* Agent.py: the DQN agent that runs using NeuralNet.py, which can be adapted to use any similar learner. The network as built will learn to solve this challenge in around 530 episodes.
 * Report.pdf
 
 ## Installing the Repo
